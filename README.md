@@ -16,7 +16,8 @@ var noteType = new AnkiNoteType(
             AnswerFormat: "{{Front}}<hr id=\"answer\">{{Back}}"
         )
     },
-    fieldNames: new[] { "Front", "Back" }
+    fieldNames: new[] { "Front", "Back" },
+    css: ".card {font-family: arial;font-size: 20px;text-align: center;color: black;background-color: white;}"
 );
 
 var collection = new AnkiCollection();
